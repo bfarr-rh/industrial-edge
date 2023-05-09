@@ -16,15 +16,15 @@ global:
 
   git:
     hostname: github.com
-    account: PLAINTEXT
+    account: bfarr-rh
     #username: PLAINTEXT
-    email: SOMEWHERE@EXAMPLE.COM
+    email: bfarr@redhat.com
     dev_revision: main
 
   s3:
     bucket:
       name: BUCKETNAME
-      region: AWSREGION
+      region: ap-southeast-1
       message:
         aggregation:
           count: 50
